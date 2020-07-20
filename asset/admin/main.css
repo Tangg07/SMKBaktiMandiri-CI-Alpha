@@ -1,0 +1,15 @@
+.image_slider{
+  border: 1px solid black;
+}
+.image_slider ul li{
+  list-style: decimal;
+}
+.row .no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row .no-gutters > [class^="col-"],
+.row .no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}

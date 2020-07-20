@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body, #bg, #bg table, #bg td {
+    height:100%;
+    width:100%;
+    overflow:hidden;
+}
+
+#bg {
+    position: fixed;
+}
+
+#bg div {
+    height:200%;
+    width:200%;
+    left:-50%;
+    position:absolute;
+    top:-50%;
+}
+
+#bg td {
+    text-align:center;
+    vertical-align:middle;
+}
+
+#bg img {
+    margin:0 auto;
+    min-height:50%;
+    min-width:50%;
+}
+
+#container {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:70;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    margin: 0 auto;
+    width: 83%;
+    padding-bottom:60px;
+}
+.poly img{
+  width: 100%;
+}
+.slides img{
+  max-width: 100%;
+}
+.button-collapse{
+  position: absolute;
+  margin-top:3%;
+}
+.pagecontent-mob{
+  margin-top: 5%;
+}
+.guru img{
+  max-width: 130px;
+  height: 130px;
+}
+.header-flash{
+  margin-top: 2%;
+}
+.header-flash img{
+  max-width: 100%;
+}
+
+/*Slider PEngaturan*/
+.slider{
+  position:relative;
+  height:480px;
+  width:100%;
+}
+.slider .slides {
+   background-color: #bdbdbd ;
+   margin: 0;
+   height: 480px;
+}
+
+.slider .slides .slidex img {
+   height: 100%;
+   width: 100%;
+   background-position: top;
+   background-size:100% auto;
+   background-repeat: no-repeat;
+}
+
+.slider .slides .slidex .caption{
+  color:#fff;
+  position:absolute;
+  top:50%;
+  left:0%;
+  width:100%;
+  height: 50%;
+  opacity:0.5;
+}
+/*Akhir Slider*/
+/* Start Button (indicator Slider)*/
+.slider .indicators .indicator-item {
+  background-color: #666666;
+  border: 4px solid #ffffff;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.slider .indicators .indicator-item.active {
+  background-color: #ffffff;
+}
+.slider .indicators {
+  bottom: 60px;
+  z-index: 100;
+  text-align: right;
+}
+/* ENd Button (indicator Slider)*/
+.box .sidebar a{
+  font-size:14pt;
+  font-weight:400;
+  color:#424242;
+  font-family: 'Arimo', sans-serif;
+}
+.box .sidebar a:hover{
+  font-size: 15pt;
+  text-decoration: underline;
+  color: #1565c0;
+}

@@ -1,0 +1,31 @@
+@media screen and (max-width: 320px){
+  .poly img{
+    width: 220%;
+    margin-left:-65%;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .poly img{
+    width: 160%;
+    margin-left:-60%;
+  }
+}
+@media screen and (max-width: 650px){
+  .poly img{
+    width: 90%;
+    margin-left:-60%;
+  }
+}
+@media screen and (max-width: 750px){
+  .poly img{
+    width: 80%;
+    margin-left:-60%;
+  }
+}
+@media screen and (max-width: 800px){
+  .poly img{
+    width: 140%;
+    margin-left:-40%;
+  }
+}
